@@ -12,6 +12,14 @@ const rootImportOpts = {
         {
             rootPathSuffix: "src/css",
             rootPathPrefix: "@css"
+        },
+        {
+            rootPathSuffix: "src/redux",
+            rootPathPrefix: "@redux"
+        },
+        {
+            rootPathPrefix: "src/config",
+            rootPathSuffix: "@config"
         }
     ]
   };
