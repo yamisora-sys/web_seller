@@ -18,8 +18,8 @@ const rootImportOpts = {
             rootPathPrefix: "@redux"
         },
         {
-            rootPathPrefix: "src/config",
-            rootPathSuffix: "@config"
+            rootPathPrefix: "./src/utils",
+            rootPathSuffix: "@utils"
         }
     ]
   };
