@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg navbar-light bg-while py-3 shadow-sm">
                 <div class="container">
                     <a class="navbar-brand fw-bold fs-4 fas fa-cubes fa-1x me-3 " href="#!">
                         COCO LEN
@@ -14,16 +14,20 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#!">Trang chủ</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Link</a>
+                                <a class="nav-link" href="#!">Quần áo LEN</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!">Mũ LEN</a>
                             </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    Đồ LEN khác
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#!">Action</a></li>
@@ -34,10 +38,14 @@ const Navbar = () => {
                             </li>
 
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div className="buttons">
+                            <a href="#!" className="btn btn-outline-dark ms-2">
+                                <i className='fa fa-sign-in me-1'></i>Đăng nhập</a>
+                            <a href="#!" className="btn btn-outline-dark ms-2 ">
+                                <i className='fa fa-user-plus me-1'></i>Đăng ký</a>
+                            <a href="#!" className="btn btn-outline-dark ms-2">
+                                <i className='fa fa-shopping-cart me-1'></i>Giỏ hàng (0) </a>
+                        </div>
                     </div>
                 </div>
             </nav>

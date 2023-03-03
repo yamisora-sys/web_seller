@@ -1,6 +1,7 @@
 import {userRegister} from '@redux/actions/UserActions';
 import { useDispatch } from 'react-redux';
 import { Notification } from '@components/Notification/Notification';
+import ImgLogin from '../../assets/login.jpeg';
 
 export function Register () {
     const dispatch = useDispatch();
@@ -28,7 +29,7 @@ export function Register () {
                             <div class="card" >
                                 <div class="row g-0">
                                     <div class="col-md-6 col-lg-5 d-none d-md-block ">
-                                        <img src="https://cf.shopee.vn/file/ab3c9d893252f6e833f85707497d8fd3"
+                                        <img id = "imglogin" src={ImgLogin}
                                             alt="login form" class="img-fluid" />
                                     </div>
                                     <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -55,7 +56,7 @@ export function Register () {
 
                                                 <div class="form-outline mb-4">
                                                     <input class="form-control form-control-lg" type="password" id="confirmPassword" placeholder="Confirm Password" />
-                                                    <label class="form-label" for="form2Example27">Password</label>
+                                                    <label class="form-label" for="form2Example27">Confirm Password</label>
                                                 </div>
 
                                                 <div class="pt-1 mb-4">

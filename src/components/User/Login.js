@@ -1,6 +1,9 @@
 
 import {userLogin} from '@redux/actions/UserActions';
 import { useDispatch } from 'react-redux';
+import React from 'react';
+import ImgLogin from '../../assets/login.jpeg';
+
 export function Login () {
     const dispatch = useDispatch();
     const SignIn = () => {
@@ -21,7 +24,7 @@ export function Login () {
                             <div class="card" >
                                 <div class="row g-0">
                                     <div class="col-md-6 col-lg-5 d-none d-md-block ">
-                                        <img src="https://cf.shopee.vn/file/ab3c9d893252f6e833f85707497d8fd3"
+                                        <img id = "imglogin"src={ImgLogin}
                                             alt="login form" class="img-fluid" />
                                     </div>
                                     <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -29,7 +32,7 @@ export function Login () {
 
                                             <form>
 
-                                                <div class="d-flex align-items-center mb-3 pb-1">
+                                                <div id ="logo" class="d-flex align-items-center mb-3 pb-1">
                                                     <i class="fas fa-cubes fa-2x me-3" ></i>
                                                     <span class="h1 fw-bold mb-0">COCO LEN</span>
                                                 </div>
