@@ -1,5 +1,5 @@
 import {userRegister} from '@redux/actions/UserActions';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Notification } from '@components/Notification/Notification';
 
 export function Register () {

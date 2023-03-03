@@ -1,7 +1,7 @@
-import { userLogin } from '@redux/actions/UserActions';
-import { useDispatch, useSelector } from 'react-redux';
-import React from 'react';
-export function Login() {
+
+import {userLogin} from '@redux/actions/UserActions';
+import { useDispatch } from 'react-redux';
+export function Login () {
     const dispatch = useDispatch();
     const SignIn = () => {
         let password = document.getElementById('password').value;
