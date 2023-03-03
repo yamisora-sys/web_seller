@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Navbar */
+
+.navbar{
+  font-size: 18px;
+}
+
+/* Login */
+Section #imglogin{
+  border-radius: 1rem 0 0 1rem;
+  padding-top: 50px;
+}
+
+Section{
+  background-color: #E6DCE5;
+}
