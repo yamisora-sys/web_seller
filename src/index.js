@@ -5,6 +5,9 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom'
 import {store} from "@redux/Store"
 import { Provider } from "react-redux";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
