@@ -69,3 +69,36 @@ export function userRegister (userInfo) {
         }
     };
 }
+
+export function userLogout () {
+    return async (dispatch) => {
+        try {
+            await signOut(auth)
+                .then(() => {
+                    dispatch({
+                        type: USER_LOGOUT,
+                        value: {}
+                    })
+                    Notification('User logged out successfully', 'success');
+                })
+        } catch (error) {
+            Notification(error.message, 'error');
+        }
+    }
+}
+
+export function updateUser () {
+    return async (dispatch) => {
+        try {
+            await updateProfile(auth.currentUser, {
+                displayName: "John Doe",
+                photoURL: "https://png.pngtree.com/png-clipart/20201205/ourlarge/pngtree-cartoon-couple-avatar-wearing-hat-png-image_2511138.jpg"
+            })
+                .then(() => {
+                    Notification('Profile updated successfully', 'success');
+                })
+        } catch (error) {
+            Notification(error.message, 'error');
+        }
+    }
+}
