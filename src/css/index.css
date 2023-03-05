@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-
+#logo {
+  color:#0487d9;
+}
 /* Navbar */
 
 .navbar{
@@ -27,4 +29,24 @@ Section #imglogin{
 
 Section{
   background-color: #E6DCE5;
+}
+
+/* Home */
+
+#textBanner{
+  text-shadow: 1px 1px #000000;
+}
+#imgBanner {
+  opacity: 0.9;
+  
+}
+
+/* Products */
+
+#productsCart{
+  width: 18rem;
+
+}
+#productsCart img{
+  height:250px;
 }
