@@ -18,25 +18,16 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Quần áo LEN</a>
+                                <a class="nav-link" href="#!">Sản phẩm</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Mũ LEN</a>
+                                <a class="nav-link" href="#!">Blog</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Đồ LEN khác
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#!">Action</a></li>
-                                    <li><a class="dropdown-item" href="#!">Another action</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#!">Something else here</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!">Liên hệ</a>
                             </li>
-
                         </ul>
                         <div className="buttons">
                             <a href="#!" className="btn btn-outline-dark ms-2">
