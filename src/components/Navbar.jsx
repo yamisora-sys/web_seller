@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-while py-3 shadow-sm">
                 <div class="container">
-                    <a class="navbar-brand fw-bold fs-4 fas fa-cubes fa-1x me-3 " href="#!">
+                    <a class="navbar-brand fw-bold fs-4 fas fa-cubes fa-1x me-3 " id="logo" href="#!">
                         COCO LEN
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
