@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { Route, Routes } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
 import { Register } from '@components/User/Register';
 import { Login } from '@components/User/Login';
@@ -11,10 +12,12 @@ import Product from './components/Product'
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Product/>
+      <Navbar />
+      <Switch>
+        <Home exact path="/" coponent={Home}/>
+        <Product exact path="/product" coponent={Product} />
+      </Switch>
     </>
-  );
+      );
 }
-export default App;
+      export default App;

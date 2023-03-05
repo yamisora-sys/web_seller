@@ -5,7 +5,7 @@ const Home = () => {
         <div>
             <div class="card text-bg-dark">
                 <img id="imgBanner" src={ImgBanner} class="card-img shadow-6" alt="Background"
-                height="550px"/>
+                height="600px"/>
                     <div id ="textBanner"class="card-img-overlay d-flex flex-column justify-content-center">
                         <div className="container">
                         <h5 class="card-title display-3 fw-bolder mb-0">COCO LEN  </h5>
