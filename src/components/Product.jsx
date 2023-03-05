@@ -3,15 +3,15 @@ import imgCart from '../assets/img3.jpeg';
 import Skeleton from "react-loading-skeleton";
 
 const Product = () => {
-    const Loading = () => {
-        return (
-            <>
-               <div className="col-md-3">
-                   <Skeleton height ={350}/>
-               </div>
-            </>
-        )
-    }
+    // const Loading = () => {
+    //     return (
+    //         <>
+    //            <div className="col-md-3">
+    //                <Skeleton height ={350}/>
+    //            </div>
+    //         </>
+    //     )
+    // }
 
     const ShowProducts = () => {
 
