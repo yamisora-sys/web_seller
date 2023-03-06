@@ -13,13 +13,13 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <ul id ="navhead" class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <NavLink class="nav-link active" aria-current="page" to="/">Trang chủ</NavLink>
+                                <NavLink class="nav-link active " aria-current="page" to="/">Trang chủ</NavLink>
                             </li>
 
-                            <li class="nav-item">
-                                <NavLink class="nav-link" to="/product">Sản phẩm</NavLink>
+                            <li class="nav-item" >
+                                <NavLink class="nav-link  " to="/product">Sản phẩm</NavLink>
                             </li>
 
                             <li class="nav-item">

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import imgCart from '../assets/img3.jpeg';
 import Skeleton from "react-loading-skeleton";
+import { NavLink } from 'react-router-dom';
 
 const Product = () => {
     // const Loading = () => {
@@ -30,11 +31,11 @@ const Product = () => {
                         <> */}
                             <div className="col-md-3 mb-4">
                                 <div id="productsCart" class="card h-100 text-center p-4" /* key={product.id} */>
-                                    <img src={imgCart} class="card-img-top" alt="..."/>
+                                    <img src="https://img.cdn.vncdn.io/cdn-pos/cba2a3-7534/ps/20221014_9OJmGRgsVHsABdBzUjzkTCY5.JPG" class="card-img-top" alt="..."/>
                                         <div class="card-body">
-                                            <h5 class="card-title mb-0">Móc khóa con cá</h5>
-                                            <p class="card-text lead fw-bold">40.000 đ</p>
-                                            <a href="#!" class="btn btn-outline-primary ">Đặt hàng</a>
+                                            <h5 class="card-title mb-0">Mũ len tai gấu</h5>
+                                            <p class="card-text lead fw-bold">150.000 đ</p>
+                                            <NavLink to={'/product/:id'} class="btn btn-outline-primary ">Đặt hàng</NavLink>
                                         </div>
                                 </div>
                             </div>

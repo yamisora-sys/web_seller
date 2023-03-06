@@ -20,6 +20,11 @@ code {
 .navbar{
   font-size: 18px;
 }
+#navhead li:hover {
+    background-color: #b9d6f3;
+    border: 2px;
+    border-radius: 25px;
+}
 
 /* Login */
 Section #imglogin{
@@ -41,7 +46,7 @@ Section{
   
 }
 
-/* Products */
+/* Product */
 
 #productsCart{
   width: 18rem;
@@ -50,3 +55,6 @@ Section{
 #productsCart img{
   height:250px;
 }
+
+/* Showproduct */
+

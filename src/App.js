@@ -8,6 +8,7 @@ import { Logout } from '@components/User/Logout';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Product from './components/Product'
+import CartProduct from './components/CartProduct'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <Switch>
         <Home exact path="/" coponent={Home}/>
         <Product exact path="/product" coponent={Product} />
+        <CartProduct exact path ="/product/:id" coponent={CartProduct}/>
+        <Login exact path ="/login" coponent={Login}/>
+        <Register exact path ="/register" coponent={Register}/>
       </Switch>
     </>
       );
