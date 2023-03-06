@@ -37,7 +37,7 @@ export function Register () {
 
                                             <form>
 
-                                                <div class="d-flex align-items-center mb-3 pb-1">
+                                                <div id="logo"class="d-flex align-items-center mb-3 pb-1">
                                                     <i class="fas fa-cubes fa-2x me-3" ></i>
                                                     <span class="h1 fw-bold mb-0">COCO LEN</span>
                                                 </div>
