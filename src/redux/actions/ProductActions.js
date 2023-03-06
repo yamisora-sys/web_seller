@@ -6,17 +6,9 @@ import {
     GET_ALL_PRODUCTS,
     productDB
 } from '@redux/types/ProductTypes'
-import { setDoc, getDoc, do, query, where, onSnapshot, getDocs } from 'firebase/firestore';
+import { setDoc, getDoc, doc, query, where, onSnapshot, getDocs, collection } from 'firebase/firestore';
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { Notification } from '@components/Notification/Notification';
-import {
-    ADD_PRODUCT,
-    EDIT_PRODUCT,
-    DELETE_PRODUCT,
-    GET_ALL_PRODUCTS,
-    productDB
-} from '@redux/types/ProductTypes'
-import { setDoc, getDoc, doc } from 'firebase/firestore';
 
 export const addProduct = (product) => {
     return async (dispatch) => {
